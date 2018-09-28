@@ -8,7 +8,7 @@ const authClient = jwksClient({
   cache: true,
   jwksUri: `https://${auth0Domain}/.well-known/jwks.json`,
   audience: 'universe-theater',
-  issuer: 'https://adobot.auth0.com/',
+  issuer: 'https://ohmer.auth0.com/',
 })
 
 /* Check authorization JWT */
